@@ -27,9 +27,61 @@ Our goal is to develop a robust and accurate system that processes EEG signals a
 
 ## Models Implemented
 
-| Model                        | Role                             |  Accuracy                  |     
-|---------------------         |---------------------------------               |----------------------------|
+| Model                        | Role                                           |  Accuracy                  |     
+|------------------------------|----------------------------------------------- |----------------------------|
 | Logistic Regression	         | Baseline machine learning model	              | Moderate                   |
-| PCA + ML Classifier          |Dimensionality reduction + classification	      | Good
-| Artificial Neural Network	   | Deep learning model capturing complex patterns |	High
-| Convolutional Neural Network |	Best performing DL model for spatial features	| Best (100%)
+| PCA + ML Classifier          |Dimensionality reduction + classification	      | Good                       |
+| Artificial Neural Network	   | Deep learning model capturing complex patterns |	High                       |
+| Convolutional Neural Network |	Best performing DL model for spatial features	| Best (100%)                |
+
+## Dataset
+The EEG dataset includes readings from both healthy individuals and Parkinson's patients. Preprocessing steps include:
+
+* Signal denoising and normalization
+* Feature extraction
+* Data segmentation
+* Label encoding
+
+##  Project Structure
+ParkinsonAI-EEG-Detection/
+data/                   # EEG dataset
+models/                 # Saved ML/DL models
+app/                    # Streamlit application
+preprocessing/          # Scripts for data cleaning
+main.py                 # Model training/testing
+app.py                  # Streamlit app main file
+requirements.txt
+README.md
+
+## Getting Started
+### Clone the repository
+```
+git clone https://github.com/praisysera/ParkinsonAI-EEG-Detection.git
+cd ParkinsonAI-EEG-Detection
+```
+
+### Install dependencies
+```
+pip install -r requirements.txt
+```
+### Run the Streamlit app
+```
+streamlit run app.py
+```
+
+### Streamlit Web App Features
+* Upload EEG signal data
+* Instant classification using trained CNN
+* Displays model accuracy and predictions
+* Clean, responsive UI for researchers and clinicians
+
+### Future Scope
+* Integration with real-time EEG acquisition devices
+* Enhancement with larger and more diverse datasets
+* Mobile app deployment using Streamlit Sharing or Docker
+* Adding explainability using SHAP or Grad-CAM for clinical trust
+
+### Results & Performance
+#### Logistic Regression
+
+[<img src="ANN_C.png">]()
