@@ -82,6 +82,24 @@ streamlit run app.py
 * Adding explainability using SHAP or Grad-CAM for clinical trust
 
 ### Results & Performance
-#### Logistic Regression
 
-[<img src="ANN_C.png">]()
+#### Logistic Regression
+![image](https://github.com/user-attachments/assets/3074501e-63a0-4de1-acfc-69f6d3b8b20c)
+![image](https://github.com/user-attachments/assets/0ba900c3-3b8b-4d52-bdb5-48c89f5ca170)
+
+#### Principle Component Analysis
+![image](https://github.com/user-attachments/assets/6759ca05-6973-4980-81c4-f595a77a3b8b)
+![image](https://github.com/user-attachments/assets/49eaf22b-7c42-4e90-bb14-00c937e248d3)
+
+#### Artificial Neural Network
+![image](https://github.com/user-attachments/assets/1f88e5a5-a2f7-4c36-877f-1b6c6616f57a)
+![image](https://github.com/user-attachments/assets/75b856df-d954-4fed-a62d-0727e9dad05e)
+
+#### Convolutional Neural Network
+![image](https://github.com/user-attachments/assets/9f174ce0-1c1a-48b8-9b21-712787b52b94)
+![image](https://github.com/user-attachments/assets/f182ae4c-286e-41f0-8ac0-5c59039cf982)
+
+
+
+
+
